@@ -20,4 +20,9 @@ export default defineConfig([
       globals: globals.browser,
     },
   },
+  module.exports = {
+    rules: {
+      'no-unused-vars': 'warn',
+    },
+  }
 ])
