@@ -19,12 +19,9 @@ export default defineConfig([
       ecmaVersion: 2020,
       globals: globals.browser,
     },
+	rules: {
+				semi: "warn",
+			},
   },
-  module.exports = {
-    rules: {
-      'no-unused-vars': 'off',
-   
-  			"prefer-const": ["off", { ignoreReadBeforeAssign: true }],
-  		},
-  	},
+  
 ])
