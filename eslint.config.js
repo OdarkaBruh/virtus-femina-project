@@ -22,7 +22,9 @@ export default defineConfig([
   },
   module.exports = {
     rules: {
-      'no-unused-vars': 'warn',
-    },
-  }
+      'no-unused-vars': 'off',
+   
+  			"prefer-const": ["off", { ignoreReadBeforeAssign: true }],
+  		},
+  	},
 ])
